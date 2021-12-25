@@ -16,22 +16,24 @@
   <body>
   <header>
     <div class="header">
-  <a href="#default" class="logo"><img src="speed-car-logo.png" width="100" height="100"/>Vintage Car Hire</a>
+  <a href="#default" class="logo"><img src="resources/images/speed-car-logo.png" width="50" height="50"/>Vintage Car Hire</a>
   <div class="header-right">
-    <a class="active" href="#home">Home</a>
+    <a class="active" href="#cars">Cars</a>
+    <a href="#enquiries">Enquiries</a>
     <a href="#contact">Contact</a>
-    <a href="#about">About</a>
   </div>
 </div>
 </header>
     <main>
-      <div id="heading"> Vintage Car Hire </div>
+      <div id="heading"> <h1>Vintage Car Hire </h1></div>
       <div class="car py-5 bg-light">
         <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="row">
+        <div id="cars" class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+          <!-- Card 1 -->
           <div class="col">
-            <div class="card" style="width:400px">
-              <img class="card-img-top" src="/resources/images/car-chevy.jpeg" alt="Card image" style="width:100%">
+            <div class="card">
+              <img class="card-img-top" src="resources/images/car-mustang.jpg" alt="Card image" style="width:100%">
               <div class="card-body">
                 <h4 class="card-title">John Doe</h4>
                 <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
@@ -39,7 +41,86 @@
               </div>
             </div>
           </div>
+           <!-- Card 2 -->
+            <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="resources/images/car-mustang-2.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+            <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="resources/images/car-porche.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+            <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="resources/images/car-mustang-2.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- Enquiries -->
+        <div id="enquiries">
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-3">
+            <h2>Enquiries</h2>
+            <div class="row-cols-1">
+              <form>
+                  <div class="form-group">
+                  <label for="Fullname">Full Name</label>
+                  <input type="text" class="form-control" id="fullname" placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Choose a Car</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Honda</option>
+                    <option>Mustang</option>
+                    <option>Ferari</option>
+                    <option>Chevy</option>
+                    <option>Holden</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Comments</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
 
+        <!-- Contact -->
+        <div id="contact">
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1">
+            <h2>Contact</h2>
+            <div class="row-cols-1">
+              <p>Vitage Car hire Melbourne</p>
+              <address>8 Testing Street, Melbourne</address>
+              <p>Mobile: 0470883883
+              <p>Email: contact@vintagetestmelbourne.com.au</p>
+            </div>
+          </div>
         </div>
         </div>
       </div>

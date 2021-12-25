@@ -65,4 +65,15 @@ body {
   .header-right {
     float: none;
   }
-}     
+}
+
+#heading {
+  background-image: url(../images/yellow-vintage-header.jpeg);
+    height: 370px;
+    width: auto;
+    margin: auto;
+}
+
+#enquiries, #contact {
+  padding-top: 10ox;
+}
